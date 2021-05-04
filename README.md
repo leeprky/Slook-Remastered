@@ -1,7 +1,7 @@
 # SLOOK (REMASTERED)
 A Discord Theme Based **Around The Chat**, Making it more appealing.
 
-![preview](https://raw.githubusercontent.com/leeprky/Lode/main/default/images/PreviewEdit.jpg)
+![preview]()
 
 ## How To Install SLOOK Remastered?
 
