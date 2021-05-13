@@ -1,8 +1,6 @@
 # SLOOK (REMASTERED)
 A Discord Theme Based **Around The Chat**, Making it more appealing.
 
-![preview]()
-
 ## How To Install SLOOK Remastered?
 
 Its Simple!
@@ -19,11 +17,6 @@ For **Betterdiscord** Users:
 
 CLick > [Download]()
 
-
-For **Goosemod** Users:
-
-1. Navigate To The Themes Section & Filter By My Name *Leeprky* And Click Install.
-
 # Extras 
 
 Thank you for checking out/downloading my Theme :)
@@ -33,3 +26,6 @@ Thanks For The Overwhelming Support On SLOOK V2 :)
 
 ## Previews
 
+![preview](https://i.imgur.com/4USGPys.png)
+
+![preview](https://i.imgur.com/CbXMx7N.png)
