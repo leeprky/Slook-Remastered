@@ -1,14 +1,6 @@
-/**
- * @name Slook Remastered
- * @author Leeprky
- * @version 3.0
- * @description A Comfy Chat Theme
- * @source https://github.com/leeprky/Slook-Remastered
-*/
-
 /*  ------------------------------------------
-               SLOOK V3 (BETTERDISCORD)
-                      v3.0
+               SLOOK V3 (POWERCORD)
+                      v3.1
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -31,9 +23,22 @@
 /* Titlebar */
 /* Disable if you cant see them in top right (windows) */
 
+
+/*  ----------------------------
+         GLASSCORD SUPPORT
+    ----------------------------  */
+    
+/*
+    @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/BetterDefaultGlasscord.theme.css); 
+*/
+
+/*  ----------------------------
+       GLASSCORD SUPPORT END
+    ----------------------------  */
+
 /*  ------------------------------------------
          SLOOK Customisable Configuration
-                    v3.0
+                    v3.1
                -leeprky#2063-
     ------------------------------------------  */
 
@@ -140,6 +145,8 @@ USRBG Popouts by Tropix126.
 .theme-dark {
         
   /* Lode Specific */
+--bd-color: #285651;
+--bd-color-hover: #224945;
 --alt-color: 40, 86, 81; /* RGB */
 --alt-color2: #285651; /* HEX */
          
@@ -487,6 +494,7 @@ bottom: 75px;
 background-color: rgba(216, 27, 27, 0);
 }
 
+
 /* SlookChatBox OPTIONAL*/
 /* Name */
 .username-1A8OIy {
@@ -520,13 +528,45 @@ background-color: rgba(216, 27, 27, 0);
   padding-left: 72px;
   margin-top: -5px;
 }
+/* Compact Support */
+.compact-T3H92H .contents-2mQqc9 {
+  height: 50px;
+}
+.compact-T3H92H .timestamp-3ZCmNB, .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+  display: none;
+}
+.messagesWrapper-1sRNjr, .scrollerContent-WzeG7R {
+  margin-left: 10px
+}
+
 
 /* --- */
 /* Optionals End */
 /* ----- */
 
+/* BETTERDISCORD ADDITONS */
+.activity-11LB_k {
+  background-color: rgba(0, 0, 0, 0);
+}
+.scroller-305q3I {
+  border-radius: 12px;
+}
+.theme-dark .perksModal-fSYqOq {
+  background-color: var(--background-primary);
+}
+/* Bd Blue */
+.bd-button, .bd-server-tag, .bd-addon-views .bd-view-button.selected  {
+  background-color: var(--bd-color); 
+}
+.bd-button:hover {
+  background-color: var(--bd-color-hover); 
+}
+#bd-pub-button:hover {
+  background-color: var(--bd-color-hover); 
+}
+
 /*  ----------------------------------------------------
          ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                THIS IS FOR DEBUGGING ETC
-                    v3.0 (Slook)
+                    v3.1 (Slook)
     ----------------------------------------------------  */
