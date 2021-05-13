@@ -5,6 +5,7 @@
     ------------------------------------------  */
 
 /* SLOOK Source Code */
+@import url(https://raw.githack.com/leeprky/Slook-Remastered/lode/source/slook-source.css);
 
 /* Other Imports */
 /* Visuals */
@@ -138,7 +139,7 @@ USRBG Popouts by Tropix126.
 
 .withFrame-haYltI {
     height: 18px;
-    margin-bottom: 15px;
+    margin-bottom: var(--titlebar-bottom);
 }
 /* SLOOK Dark */
 .theme-dark {
@@ -153,10 +154,12 @@ USRBG Popouts by Tropix126.
 
 /* Watermark */
 --watermark-text: "SLOOK";
---watermark-version: "v3.0";
+--watermark-version: "";
 --watermark-text-top: 6px;
---watermark-text-left: -1.6rem;
+--watermark-text-left: 0rem;
 --watermark-gradient: 200deg, rgb(247, 247, 247), rgb(255, 255, 255) !important;
+--watermark-gradient-light: 200deg, rgb(10, 10, 10), rgb(8, 8, 8) !important;
+--titlebar-bottom: 0px;
 
  /* Header Colours Colors */
 --modal-normal-primary-color: var(--background-secondary);
@@ -199,7 +202,7 @@ USRBG Popouts by Tropix126.
  --background-tertiary: #2f3236;
  --background-accent: var(--alt-color2);
  --background-floating: #18191c;
- --background-floating: #2b3341;
+ --background-floating: #2f3236;
 
  /* Hovering Colours */
 --background-modifier-hover: rgba(56, 168, 151, 0.459);
@@ -331,7 +334,7 @@ USRBG Popouts by Tropix126.
   --radio-group-dot-foreground: var(--alt-color);
 }
 
-/* Lode Extras */
+/* Slook Extras */
 .guilds-1SWlCJ{background-color:var(--serverlist-background)}
 .members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
 .guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
@@ -346,6 +349,194 @@ USRBG Popouts by Tropix126.
         Add A "/*" On The Lines Below The Comments
                   To Disable Them
     ----------------------------------------------------  */
+
+    /* Center Server List */
+/* OPTIONAL SERVER LIST
+#app-mount .wrapper-3NnKdC.guilds-1SWlCJ .scroller-1Bvpku {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*
+/* SLOOK FONT */
+:root {
+  --discord-font: 'Discord'; /* Delete For Regular Font */
+}
+
+/* Better Looking New Messages Pill By Leeprky#2063 */
+.unreadPill-2HyYtt {
+  color: rgb(252, 248, 248);
+  background-color:var(--new-message-pill);
+  border-radius: 5px;
+  width: 50px;
+  height: 16px;
+  margin-bottom: 9px;
+  margin-left: -10px;
+  position: static;
+  font-family: "Discord"; /* - DISCORD USERNAME FONT */
+  padding-left: 3px;
+}
+.divider-JfaTT5 {
+  border-top: thin solid var(--new-message-pill);
+  width: 420px;
+  height: 10px;
+  left: 70px;
+}
+/* Day History Pill */
+.unreadPillCap-3_K2q2 {
+  width: 0px;
+  height: 0px;
+}
+.content-1o0f9g {
+  font-size: 0.65rem;
+}
+.theme-dark .content-1o0f9g {
+  color: #e7dddd;
+  font-family: "Discord"; /* - DISCORD USERNAME FONT */
+  margin-top: -7px;
+  font-size: 0.60rem;
+  background-color: var(--new-message-pill);
+}
+.theme-light .content-1o0f9g {
+  color: #1b1a1a;
+  font-family: "Discord"; /* - DISCORD USERNAME FONT */
+  margin-top: 00rem;
+  font-size: 0.60rem;
+  background-color: var(--new-message-pill);
+}
+
+/* Add transparency & blur to the loading screen */
+.container-16j22k {
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(5px);
+}
+/* BoldText */
+.headerText-2F0828 {
+  font-size: 18px; 
+  font-family:'Discord';  /* - DISCORD USERNAME FONT */
+}
+.header-2RyJ0Y {
+  font-size: 16px;
+  font-family:'Discord';  /* - DISCORD USERNAME FONT */
+}
+.title-3sZWYQ {
+  font-size: 15px;
+  font-family:'Discord';  /* - DISCORD USERNAME FONT */
+}
+.container-2ax-kl {
+  font-size: 15px;
+  font-family:'Discord';  /* - DISCORD USERNAME FONT */
+}
+/* PictureInPicture */
+.header-2Zv56X {
+  font-size: 18px;
+  color:#eaedf0; 
+  font-family: 'Discord' /* - DISCORD USERNAME FONT */
+} 
+.description-22pzKs {
+  color: #c7cacc;
+  font-size: 11px
+}
+
+/* Bubble Member List OPTIONAL*/
+
+:root {
+  --hover-animation-speed: 0.35s;
+  --seperator-color: var(--background-accent);
+}
+.members-1998pB {
+  transition: transform var(--hover-animation-speed);
+}
+.membersWrap-2h-GB4 {
+ min-width: unset;
+ width: 40px;
+ justify-content: left;
+}
+.content-3QAtGj .subText-1KtqkB {
+ display: none;
+}
+.membersWrap-2h-GB4:hover .members-1998pB {
+  transform: translateX(-260px);
+}
+.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
+  background-color: unset;
+  margin-left: 0px;
+  transition: margin-left var(--hover-animation-speed);
+}
+.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
+  margin-left: 15px;
+}
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+  transform: translateX(2px);
+}
+.membersWrap-2h-GB4 .membersGroup-v9BXpm {
+  cursor: default;
+  transform: translateX(-10px);
+  transition: transform var(--hover-animation-speed);
+  overflow: inherit;
+}
+.members-1998pB {
+border-radius: 18px 18px 18px 18px !important;
+left: 37px;
+margin-top: 100px;
+margin-bottom: 15px;
+}
+::-webkit-scrollbar {
+ display: none;
+}
+.membersWrap-2h-GB4 {
+left: 45px;
+margin-right: 40px;
+bottom: 75px;
+background-color: rgba(216, 27, 27, 0);
+}
+
+
+/* SlookChatBox OPTIONAL*/
+/* Name */
+.username-1A8OIy {
+  font-size: 1.15rem;
+  line-height: 2.375rem;
+  color: var(--header-primary);
+  display: inline;
+  margin-bottom:  15px;
+  margin-left: 0px;  /* - DISCORD USERNAME FONT
+  font-family:'Discord'; 
+  /* /* */
+}
+.cozy-3raOZG .timestamp-3ZCmNB {
+  font-size: 0.65rem;
+  height: 1.975rem;
+  color: #b6b9b4;
+  vertical-align:-webkit-baseline-middle; 
+  font-family: 'Discord';  /* - DISCORD USERNAME FONT */
+}
+.message-2qnXI6 .avatar-1BDn8e {
+  margin-bottom: -10px;
+  width: 50px;
+  height: 50px;
+  left: 10px
+}
+.message-2qnXI6 .contents-2mQqc9 .avatar-1BDn8e {
+  top: 15px !important;
+}
+.cozy-3raOZG .messageContent-2qWWxC {
+  margin-left: -68px;
+  padding-left: 72px;
+  margin-top: -5px;
+}
+/* Compact Support */
+.compact-T3H92H .contents-2mQqc9 {
+  height: 50px;
+}
+.compact-T3H92H .timestamp-3ZCmNB, .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
+  display: none;
+}
+.messagesWrapper-1sRNjr, .scrollerContent-WzeG7R {
+  margin-left: 10px
+}
+
 
 /* --- */
 /* Optionals End */
