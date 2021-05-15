@@ -1341,3 +1341,91 @@ img[src="/assets/13c8662cff8e029799a35878b56e23eb.svg"] {
 }
 
 /* END OF INDEX.CSS */
+
+/* Global Recolouring */
+.headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P{background:var(--spotify-color)}
+.attachButtonPlay-3iJ0mf{color:var(--spotify-color)}
+.headerStreaming-2FjmG,.topSectionStreaming-1Tpf5X{background:var(--streaming-color)}
+.streamerModeEnabledBtn-2ZJ2eq{background-color:var(--streaming-color)}
+.headerPlaying-j0WQBV,.topSectionPlaying-1J5E4n{background:var(--playing-color)}
+.headerNormal-T_seeN,.headerTop-3C2Zn0,.topSectionNormal-2-vo2m{background:var(--modal-normal-color)}
+.theme-dark .body-3iLsc4,.theme-dark .footer-1fjuF6{background-color:var(--modal-normal-secondary-color)}
+.scroller-1Bvpku{background-color:var(--serverlist-background)}
+.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
+.mentioned-xhSam7:before{background-color:var(--mentioned-line)}
+.theme-dark .tooltipPrimary-1d1ph4,.theme-light .tooltipPrimary-1d1ph4{background-color:var(--background-accent)}
+.header-2BwW8b{border-radius:0 0 12px 12px}
+.isUnread-3Ef-o9,.unreadPill-2HyYtt{border-color:var(--background-accent);background-color:var(--background-accent)}
+.isUnread-3Ef-o9 .content-1o0f9g{color:var(--background-accent)}
+.unreadPillCapStroke-7rkHbg{fill:var(--background-accent);color:var(--background-accent)}
+.updateIconForeground-3tnNZn{fill:var(--background-accent)}
+.theme-light .title-eS5yk3{color:var(--subtext-color)}
+.theme-light .panels-j1Uci_ .button-14-BFJ{color:var(--subtext-color)}
+.theme-light .subtext-3CDbHg{color:var(--subtext-color)}
+.theme-light .nameTag-3uD-yy{margin-left:-7px}
+.theme-light .container-3baos1 .avatar-SmRMf2{margin-left:-5px}
+.theme-light .nameTag-3uD-yy.canCopy-2VBT7N{margin-left:0}
+.theme-light .subtext-3CDbHg{color:var(--subtext-color)!important}
+.theme-dark .form-26zE04,.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV,.theme-dark .root-1gCeng{background-color:#191f30}
+.input--jS-j2,.theme-dark .footer-2gL1pp{background-color:#252b3b}
+.theme-dark .container-UC8Ug1{background-color:#252b3b}
+.theme-dark .colorHeaderSecondary-3Sp3Ft,.theme-dark .contents-18-Yxp,.theme-dark .footerTitle-2CYZch,.theme-dark .h5-18_1nd,.theme-dark .iconContainer-2B0ixr,.theme-dark .input-cIJ7To,.theme-dark .lookFilled-1Gx00P .contents-18-Yxp,.theme-dark .lookInverted-2D7oAl .contents-18-Yxp,.theme-dark .lookLink-9FtZy- .contents-18-Yxp,.theme-dark .lookOutlined-3sRXeN .contents-18-Yxp,.theme-dark .optionHeader-1-5lcp,.theme-dark .subtitle-1KdHaN,.theme-dark .subtitle-1Q3BuX,.theme-dark .subtitle-Nw1LLR,.theme-dark .text-1FOLJS,.theme-dark .title-3w8xhj,.theme-dark .title-LqAd9K,.theme-dark .title-XLSR78,.theme-dark .title-Z_XiOC{color:#f3efef}
+
+.chat-3bRxxu, .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+  left: 3px;
+}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+background-color: var(--modal-normal-secondary-color);
+border-radius: 12px;
+margin-top: 2px;
+}
+
+
+.sidebarRegion-VFTUkN {
+  flex-grow: 0;
+}
+
+.contentColumnDefault-1VQkGM {
+  max-width: calc(100% - 60px);
+}
+
+/* https://canary.discord.com/channels/538759280057122817/755015869914152981/768999383672815618 */
+/* Winston#0441 (156990761366192128) for the original snippets */
+/* spooky snapper#0001 (431883840483491850) for the compiled version */
+.contentRegion-3nDuYy .contentColumn-2hrIYH {
+  max-width: 100%;
+}
+.contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .video-34IsHk {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child {
+  width: 100%;
+}
+.contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child > .title-PMZpEi, .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child .description-1W0DiL {
+  text-align: end;
+}
+.contentRegion-3nDuYy .contentColumn-2hrIYH .attendeeCTA-3ZZQWt {
+  border: 0;
+}
+.contentRegion-3nDuYy .content-1rPSz4 {
+  max-width: 100%;
+}
+.contentRegion-3nDuYy .customColumn-Rb6toI {
+  max-width: 100%;
+}
+.contentRegion-3nDuYy .customColumn-Rb6toI .customScroller-26gWhv > .flex-1xMQg5 {
+  max-width: 100%;
+}
+.contentRegion-3nDuYy .customColumn-Rb6toI .content-3YMskv {
+  max-width: 100%;
+}
+.customScroller-26gWhv>div {
+  max-width: 100%;
+}
+.contentColumnDefault-1VQkGM {
+  /* max-width: calc(83vw) !important; */
+  /* I used this to fix the QuickCSS editor, it might not work for you*/
+}
