@@ -1,33 +1,30 @@
 /**
  * @name Slook
  * @author Leeprky
- * @version 3.0
- * @description BetterDiscord Slook Theme From Powercord
+ * @version 3.1
+ * @description Comfy Chat Theme
  * @source https://github.com/leeprky/slook-remastered
 */
-
 /*  ------------------------------------------
-               SLOOK V3 (POWERCORD)
-                      v3.1
+             SLOOK V3 (BetterDiscord)
+                      v3.0
                 - leeprky#2063 -
     ------------------------------------------  */
-
-/* OLD SOURCE CODE REMOVE ALL BELOW TO ENABLE */
-/* @import url(https://raw.githack.com/leeprky/Slook/main/slook.theme.css);
 
 /* SLOOK Source Code */
 @import url(https://raw.githack.com/leeprky/Slook-Remastered/lode/source/slook-source.css);
 
 /* Other Imports */
 /* Visuals */
-@import url(https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css);
-@import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css);
+/* @import url(https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css); */
+ @import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css); 
 
 @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
 @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 /* Other Imports */
+@import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css);
 @import url(https://discordstyles.github.io/RadialStatus/base.css);
 
 /* Titlebar */
@@ -37,10 +34,49 @@
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */
-    
+
 /*
-    @import url(https://raw.githack.com/leeprky/BetterDefaultGlasscord/main/BetterDefaultGlasscord.theme.css); 
-*/
+  
+:root{
+	--glasscord-win-blur: blurbehind;
+	--glasscord-macos-vibrancy: fullscreen-ui;
+	--glasscord-linux-blur: true;
+	--glasscord-titlebar: osx;  
+}
+body{
+    background-color: transparent;
+}
+#app-mount{
+	background-color: rgba(0, 0, 0, 0.301);
+	border-radius: 10px 10px 10px 10px; 
+	border-color: transparent;
+}
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
+  background: transparent;
+}
+.theme-dark {
+	--background-primary: #0c0c0c00!important;
+	--background-secondary: #0a0a0a00!important;
+	--background-tertiary: #0c0c0c73!important;
+};
+#app-mount .guilds-1SWlCJ, .base-3dtUhz {
+  top: calc(var(--server-container) + -32px) !important;
+}
+.platform-osx .container-1r6BKw {
+  -webkit-app-region: none;
+}
+#app-mount .app-1q1i1E .base-3dtUhz {
+  margin-top: 32px;
+}
+.panels-j1Uci_ {
+  background-color: transparent;
+}
+.scrollableContainer-2NUZem {
+  background-color: rgba(0, 0, 0, 0.534);
+}
+.contentRegionScroller-26nc1e, .contentRegion-3nDuYy, .standardSidebarView-3F1I7i, .sidebarRegionScroller-3MXcoP {
+  background: rgba(22, 22, 22, 0.596);
+}
 
 /*  ----------------------------
        GLASSCORD SUPPORT END
@@ -48,7 +84,7 @@
 
 /*  ------------------------------------------
          SLOOK Customisable Configuration
-                    v3.1
+                    v3.0
                -leeprky#2063-
     ------------------------------------------  */
 
@@ -153,13 +189,26 @@ USRBG Popouts by Tropix126.
 }
 /* SLOOK Dark */
 .theme-dark {
-        
+
+  --modal-playing-background-light: url(https://imgur.com/GZyPIBZ.jpg);
+  --expanded-playing-background-light: url(https://imgur.com/GZyPIBZ.jpg);
+  --call-background-light: url(https://imgur.com/GZyPIBZ.jpg);
+
+  --modal-playing-background-dark: url(https://imgur.com/L0Iih63.jpg);
+  --expanded-playing-background-dark: url(https://imgur.com/L0Iih63.jpg);
+  --call-background-dark: url(https://imgur.com/L0Iih63.jpg);
+
   /* Lode Specific */
 --bd-color: #285651;
 --bd-color-hover: #224945;
 --alt-color: 40, 86, 81; /* RGB */
 --alt-color2: #285651; /* HEX */
-         
+--new-message-pill: var(--alt-color2);
+
+  /* Keeping Consistancy With Discord */ 
+  --serverlist-background: var(--background-tertiary);
+  --memberlist-background: #1D1F22;
+  --win-titlebar: var(--background-tertiary);
 
 /* Other */
 --scrollbars: none; /* none or unset */
@@ -169,9 +218,9 @@ USRBG Popouts by Tropix126.
 --watermark-version: "";
 --watermark-text-top: 6px;
 --watermark-text-left: 0rem;
---watermark-gradient: 200deg, rgb(247, 247, 247), rgb(255, 255, 255) !important;
+--watermark-gradient: 200deg, rgb(24, 189, 46), rgb(255, 255, 255) !important;
 --watermark-gradient-light: 200deg, rgb(10, 10, 10), rgb(8, 8, 8) !important;
---titlebar-bottom: 0px;
+--titlebar-bottom: 5px;
 
  /* Header Colours Colors */
 --modal-normal-primary-color: var(--background-secondary);
@@ -217,15 +266,16 @@ USRBG Popouts by Tropix126.
  --background-floating: #2f3236;
 
  /* Hovering Colours */
---background-modifier-hover: rgba(56, 168, 151, 0.459);
---background-modifier-active: rgba(56, 168, 151, 0.521);
---background-modifier-selected: rgba(56, 168, 151, 0.178);
---background-modifier-accent: rgba(56, 168, 151, 0.418);
+ --background-modifier-hover: rgba(116,127,141,0.08);
+ --background-modifier-active: rgba(116,127,141,0.16);
+ --background-modifier-selected: rgba(116,127,141,0.24);
+ --background-modifier-accent: rgba(6,6,7,0.08);
 --background-message-hover: transparent;
 
  /* Mentioned  Colours */
---background-mentioned: rgba(56, 168, 151, 0.233);
---background-mentioned-hover: rgba(56, 168, 151, 0.322);
+--background-mentioned: rgba(89, 250, 26, 0.055);
+--background-mentioned-hover: rgba(58, 180, 20, 0.08);
+--background-message-hover: rgba(4,4,5,0.07);
 --background-mentioned-bar: var(--background-accent);
 
 --background-help-warning: rgba(56, 168, 151, 0.233);
@@ -578,5 +628,5 @@ background-color: rgba(216, 27, 27, 0);
 /*  ----------------------------------------------------
          ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                THIS IS FOR DEBUGGING ETC
-                    v3.1 (Slook)
+                    v3.0 (Slook)
     ----------------------------------------------------  */
