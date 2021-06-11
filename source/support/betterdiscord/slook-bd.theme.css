@@ -1,7 +1,7 @@
 /**
  * @name Slook
  * @author Leeprky
- * @version 3.1
+ * @version 3.2
  * @description Comfy Chat Theme
  * @source https://github.com/leeprky/Slook-Remastered
  * @updateUrl https://github.com/leeprky/Slook-Remastered/blob/main/source/support/betterdiscord/slook-bd.theme.css
@@ -12,12 +12,12 @@
 */
 /*  ------------------------------------------
              SLOOK V3 (BetterDiscord)
-                      v3.0
+                      v3.2
                 - leeprky#2063 -
     ------------------------------------------  */
 
 /* SLOOK Source Code */
-@import url(https://raw.githack.com/leeprky/Slook-Remastered/lode/source/slook-source.css);
+@import url(https://leeprky.github.io/themes/slook/slook-source.css);
 @import url('https://leeprky.github.io/snippits/coolsniipitsforthemes.css');
 
 /* Other Imports */
@@ -25,8 +25,8 @@
 /* @import url(https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css); */
  @import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css); 
 
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+@import url(https://leeprky.github.io/themes/BaseStuff/alt-color.css);
+@import url(https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css);
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 /* Other Imports */
