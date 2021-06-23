@@ -21,9 +21,9 @@
 @import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css);
 @import url(https://discordstyles.github.io/RadialStatus/base.css);
 
-/* Titlebar */
-/* Disable if you cant see them in top right (windows) */
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
 
+:root {--version: "v3.0.0"; --outdated_slook-390: none;}
 
 /*  ----------------------------
          GLASSCORD SUPPORT
