@@ -208,6 +208,7 @@ USRBG Popouts by Tropix126.
 --bd-color-hover: #224945;
 --alt-color: 40, 86, 81; /* RGB */
 --alt-color2: #285651; /* HEX */
+--alt-color3: 171; /* HSL */
 --new-message-pill: var(--alt-color2);
 
   /* Keeping Consistancy With Discord */ 
