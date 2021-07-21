@@ -34,7 +34,7 @@
 @import url(https://discordstyles.github.io/RadialStatus/base.css);
 
 @import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
-:root {--version: "v3.0.0" !important --build: "390" !important--outdated_slook-390: none !important}
+:root {--version: "v3.0.0"; --build: "390"; --outdated_slook-390: none;}
 
 /*  ----------------------------
          GLASSCORD SUPPORT
