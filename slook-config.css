@@ -239,6 +239,7 @@ body{
   /* Lode Specific */
   --alt-color: 83, 182, 167; /* RGB */
   --alt-color2: #53b6a7; /* HEX */
+  --alt-color3: 171; /* HSL */
 
   /* Other */
   --scrollbars: none; /* none or unset */
