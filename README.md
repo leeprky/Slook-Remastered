@@ -15,7 +15,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Slook-
 
 For **Betterdiscord** Users:
 
-CLick > [Download]()
+CLick > [Download](https://betterdiscord.app/Download?id=232)
 
 # Extras 
 
