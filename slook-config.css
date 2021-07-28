@@ -18,12 +18,12 @@
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 /* Other Imports */
-@import url(https://raw.githack.com/DiscordStyles/HorizontalServerList/master/HorizontalServerList.theme.css);
+@import url(https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/master/src/HorizontalServerList.theme.scss);
 @import url(https://discordstyles.github.io/RadialStatus/base.css);
 
 @import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
 
-:root {--version: "v3.0.0"; --build: "390"; --outdated_slook-390: none;}
+:root {--version: "v3.0.0"; --build: "391"; --outdated_slook-391: none;}
 
 /*  ----------------------------
          GLASSCORD SUPPORT
