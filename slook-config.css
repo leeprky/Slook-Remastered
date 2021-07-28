@@ -20,10 +20,8 @@
 /* Other Imports */
 @import url(https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/master/src/HorizontalServerList.theme.scss);
 @import url(https://discordstyles.github.io/RadialStatus/base.css);
-
-@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
-
-:root {--version: "v3.0.0"; --build: "391"; --outdated_slook-391: none;}
+@import "https://leeprky.github.io/themes/slook/version.css";
+:root {--version: "v3.0.0"; --build: "392"; --outdated_slook-392: none !important}
 
 /*  ----------------------------
          GLASSCORD SUPPORT
