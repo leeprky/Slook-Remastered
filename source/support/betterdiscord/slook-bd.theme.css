@@ -1,7 +1,7 @@
 /**
  * @name Slook
  * @author Leeprky
- * @version 3.0
+ * @version 3.0.1
  * @description Comfy Chat Theme
  * @source https://github.com/leeprky/Slook-Remastered
  * @updateUrl https://github.com/leeprky/Slook-Remastered/blob/main/source/support/betterdiscord/slook-bd.theme.css
@@ -30,11 +30,10 @@
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 /* Other Imports */
-@import url(https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/master/src/HorizontalServerList.theme.scss);
-@import url(https://discordstyles.github.io/RadialStatus/base.css);
-
-@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
-:root {--version: "v3.0.0"; --build: "391"; --outdated_slook-391: none;}
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");```
+@import "https://leeprky.github.io/themes/slook/version.css";
+:root {--version: "v3.0.1"; --build: "393"; --outdated_slook-393: none !important}
 
 /*  ----------------------------
          GLASSCORD SUPPORT
