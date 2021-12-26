@@ -26,12 +26,12 @@
   --background-accent: var(--glasscord-accent); 
   --background-floating: var(--glasscord-floating); 
   
-  --glasscord-primary: #0c0c0c00 !important;
-  --glasscord-secondary: #0a0a0a00 !important;
-  --glasscord-secondary-alt: #0a0a0a00 !important;
+  --glasscord-primary: #24262bb8 !important;
+  --glasscord-secondary: #1d1f220 !important;
+  --glasscord-secondary-alt: #1d1f2283 !important;
   --glasscord-accent: var(--alt-color2) !important;
-  --glasscord-tertiary: #0c0c0c73!important;
-  --glasscord-floating: #18191c !important;
+  --glasscord-tertiary: #2f323674 !important;
+  --glasscord-floating: #18191ce5 !important;
   --glasscord-backdrop: 0.55 !important;
 }
 
@@ -43,15 +43,19 @@
   --background-accent: var(--glasscord-accent); 
   --background-floating: var(--glasscord-floating); 
   
-  --glasscord-primary: #f5f1eb7e !important;
-  --glasscord-secondary: #eeece856 !important;
-  --glasscord-secondary-alt: #eeece870 !important;
+  --glasscord-primary: #cad7e0b1 !important;
+  --glasscord-secondary: #dce5eca8 !important;
+  --glasscord-secondary-alt: #dce5ec9a !important;
   --glasscord-accent: var(--alt-color2) !important;
-  --glasscord-tertiary: #fffdfc00 !important;
-  --glasscord-floating: #f7efe8e8 !important;
+  --glasscord-tertiary: #eceff388 !important;
+  --glasscord-floating: #bbc8d198 !important;
   --glasscord-backdrop: 0.55 !important;
 }
 /* */
+
+/*  ----------------------------
+       GLASSCORD SUPPORT END
+    ----------------------------  */
 
 /*  ----------------------------
        GLASSCORD SUPPORT END
