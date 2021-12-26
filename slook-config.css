@@ -104,11 +104,9 @@
   /* Status/Other Things Colours */
 
   --watermark-text: "SLOOK";
-  --watermark-version: "";
-  --watermark-text-top: 6px;
-  --watermark-text-left: 0rem;
+  --watermark-text-top: 1.2px;
+  --watermark-text-left: -5.79rem;
   --watermark-gradient: 200deg, rgb(24, 189, 46), rgb(255, 255, 255) !important;
-
 
   /* Header Colours */
   --headers: #EAE1DF; /* */
