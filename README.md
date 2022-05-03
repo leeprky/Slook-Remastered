@@ -15,7 +15,9 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Slook-
 
 For **Betterdiscord** Users:
 
-CLick > [Download](https://betterdiscord.app/Download?id=232)
+NO LONGER AVAILBLE ON BETTER DISCORDS SITE
+
+USE RAW FILE > https://raw.githubusercontent.com/leeprky/Slook-Remastered/main/source/support/betterdiscord/slook-bd.theme.css
 
 # Extras 
 
